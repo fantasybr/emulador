@@ -31,7 +31,7 @@ aldeba_in,96,181,4	script	Kafra Service	113,{
 	mes "[Kafra Leilah]";
 	mes "Hm...?";
 	mes "Oh, Bem vindo(a)";
-	mes "a os Quartos da Corporação Kafra.";
+	mes "aos Quartos da Corporação Kafra.";
 	mes "Você precisa";
 	mes "de algo?";
 	next;

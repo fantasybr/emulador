@@ -30,12 +30,12 @@ aldeba_in,96,181,4	script	Kafra Service	113,{
 	cutin "kafra_05",2;
 	mes "[Kafra Leilah]";
 	mes "Hm...?";
-	mes "Oh, welcome to";
-	mes "the Kafra Corporation";
-	mes "Headquarters. Did you";
-	mes "need something?";
+	mes "Oh, Bem vindo(a)";
+	mes "a os Quartos da Corporação Kafra.";
+	mes "Você precisa";
+	mes "de algo?";
 	next;
-	switch(select("Save:Use Storage:Rent a Pushcart:Cancel")) {
+	switch(select("Salvar:Usar o Armazém:Alugar um Carrinho:Cancelar")) {
 	case 1:
 		mes "[Kafra Leilah]";
 		mes "Your Respawn Point has";

@@ -13,7 +13,7 @@
 //============================================================ 
 
 airport,143,43,5	script	Airport Staff#airport1a::airport1	90,{
-	mes "[Airport Staff]";
+	mes "[Equipe do Aeroporto]";
 	mes "Welcome to the";
 	mes "Einbroch Airport,";
 	mes "where we offer nonstop";

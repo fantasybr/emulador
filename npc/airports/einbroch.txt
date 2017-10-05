@@ -14,14 +14,14 @@
 
 airport,143,43,5	script	Airport Staff#airport1a::airport1	90,{
 	mes "[Equipe do Aeroporto]";
-	mes "Welcome to the";
-	mes "Einbroch Airport,";
-	mes "where we offer nonstop";
-	mes "flights to the cities of";
-	mes "Juno, Lighthalzen and Hugel.";
+	mes "Seja bem vindo,";
+	mes "Ao Aeroporto de Einbroch,";
+	mes "Onde oferecemos sem parar";
+	mes "Vôos para as cidades de";
+	mes "Juno, Lighthalzen e Hugel.";
 	next;
-	if (select("Board the Airship:Cancel") == 1) {
-		mes "[Airport Staff]";
+	if (select("Bordo do Dirigível:Cancelar") == 1) {
+		mes "[Equipe do Aeroporto]";
 		mes "The Airship boarding fee";
 		mes "is 1,200 zeny, but if you've";
 		mes "got a Free Ticket for Airship,";
